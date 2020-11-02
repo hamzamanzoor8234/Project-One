@@ -6,6 +6,10 @@ import Title from "./components/Title";
 import Total from "./components/Total";
 import Balance from "./components/Balance";
 import AddTransection from "./components/AddTransection";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+
 function App() {
   return (
     <GlobalProvider>
